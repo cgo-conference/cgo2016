@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://cgo.org/cgo2016/xmlrpc.php" />
+	<title>Programme &#8211; 2016 International Symposium on Code Generation and Optimization</title>
+<link rel='dns-prefetch' href='http://s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="2016 International Symposium on Code Generation and Optimization &raquo; Feed" href="../../../../../feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cgo.org\/cgo2016\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.14"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ai1ec_style-css'  href='../../../../../wp-content/plugins/all-in-one-event-calendar/cache/7ac0c7e2_ai1ec_parsed_css-ver=2.5.10.css' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='../../../../../wp-content/plugins/siteorigin-panels/css/front-ver=2.4.13.css' type='text/css' media='all' />
+<link rel='stylesheet' id='vantage-style-css'  href='../../../../../wp-content/themes/vantage/style-ver=1.5.3.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='../../../../../wp-content/themes/vantage/fontawesome/css/font-awesome-ver=4.6.2.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='../../../../../wp-content/plugins/tablepress/css/default.min-ver=1.7.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../../../../wp-content/plugins/all-in-one-event-calendar/public/js_cache/calendar-ver=2.5.10.js'></script>
+<script type='text/javascript' src='../../../../../wp-includes/js/jquery/jquery-ver=1.12.4.js'></script>
+<script type='text/javascript' src='../../../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.4.1.js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/vantage/js/jquery.flexslider.min-ver=2.1.js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/vantage/js/jquery.touchSwipe.min-ver=1.6.6.js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/vantage/js/jquery.theme-main.min-ver=1.5.3.js'></script>
+<script type='text/javascript' src='../../../../../wp-content/themes/vantage/js/jquery.fitvids.min-ver=1.0.js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='../../../../../wp-content/themes/vantage/js/html5.min-ver=3.7.3.js'></script>
+<![endif]-->
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type='text/javascript' src='../../../../../wp-content/themes/vantage/js/selectivizr.min-ver=1.0.2.js'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='../../../../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.14" />
+<link rel="canonical" href="../../../../index.html" />
+<link rel='shortlink' href='../../../../index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../../../../wp-json/oembed/1.0/embed-url=http_||cgo.org|cgo2016|programme|.json" />
+<link rel="alternate" type="text/xml+oembed" href="../../../../../wp-json/oembed/1.0/embed-url=http_||cgo.org|cgo2016|programme|&format=xml.xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />	<style type="text/css" media="screen">
+		#footer-widgets .widget { width: 100%; }
+		@media screen and (max-width: 640px) {
+			#footer-widgets .widget { width: auto; float: none; }
+		}
+	</style>
+	<style type="text/css" id="vantage-footer-widgets">#footer-widgets aside { width : 100%; } </style> <style type="text/css" id="customizer-css">#masthead .hgroup h1, #masthead.masthead-logo-in-menu .logo > h1 { font-size: 0px } </style></head>
+
+<body class="page page-id-12 page-template-default responsive layout-full no-js no-sidebar has-menu-search panels-style-force-full page-layout-default">
+
+
+<div id="page-wrapper">
+
+	
+	
+		
+<header id="masthead" class="site-header masthead-logo-in-menu" role="banner">
+
+	
+<nav role="navigation" class="site-navigation main-navigation primary use-sticky-menu">
+
+	<div class="full-container">
+					<a href="../../../../../index.html" title="2016 International Symposium on Code Generation and Optimization" rel="home" class="logo"><img src="../../../../../wp-content/uploads/2015/03/cgo-logo.png"  class="logo-height-constrain"  width="1080"  height="96"  alt="2016 International Symposium on Code Generation and Optimization Logo"  /></a>
+							<div id="search-icon">
+				<div id="search-icon-icon"><div class="vantage-icon-search"></div></div>
+				
+<form method="get" class="searchform" action="http://cgo.org/cgo2016/" role="search">
+	<input type="text" class="field" name="s" value="" placeholder="Search"/>
+</form>
+			</div>
+		
+					<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-41"><a href="../../../../../index.html">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-70" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-70"><a href="../../../../../category/news/index.html">News</a></li>
+</ul>
+</li>
+<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-62"><a href="../../../../../submission-information/index.html">Submission</a>
+<ul class="sub-menu">
+	<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="../../../../../call-for-papers/index.html">Call for Papers</a></li>
+	<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="../../../../../workshops-and-tutorials/index.html">Call for Workshops and Tutorials</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="../../../../../call-for-posters/index.html">Call for Posters</a></li>
+	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="../../../../../artifact-evaluation/index.html">Artifact Evaluation</a></li>
+	<li id="menu-item-192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192"><a href="https://easychair.org/conferences/?conf=cgo2016"><span class="icon"></span>Submit a Paper</a></li>
+</ul>
+</li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-has-children menu-item-32"><a href="../../../../index.html">Programme</a>
+<ul class="sub-menu">
+	<li id="menu-item-332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-332"><a href="../../../../../keynotes/index.html">Keynotes</a></li>
+	<li id="menu-item-353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-353"><a href="http://dl.acm.org/citation.cfm?id=2854038"><span class="icon"></span>CGO 2016 Proceedings</a></li>
+	<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="../../../../../awards/index.html">Awards</a></li>
+</ul>
+</li>
+<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-112"><a href="../../../../../information/index.html">Information</a>
+<ul class="sub-menu">
+	<li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="../../../../../committees/index.html">Committees</a></li>
+	<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../../../../../registration/index.html">Registration</a></li>
+	<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="../../../../../travel-information/index.html">Venue and Travel Information</a></li>
+	<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="../../../../../student-travel-grants/index.html">Student Travel Grants</a></li>
+	<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="../../../../../visa/index.html">Visa</a></li>
+	<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a href="../../../../../social-events/index.html">Social Events</a></li>
+</ul>
+</li>
+</ul></div>			</div>
+</nav><!-- .site-navigation .main-navigation -->
+
+</header><!-- #masthead .site-header -->
+	
+	
+	
+	
+	<div id="main" class="site-main">
+		<div class="full-container">
+			
+<div id="primary" class="content-area">
+	<div id="content" class="site-content" role="main">
+
+		
+			
+<article id="post-12" class="post-12 page type-page status-publish hentry post">
+
+	<div class="entry-main">
+
+		
+					<header class="entry-header">
+													<h1 class="entry-title">Programme</h1>
+							</header><!-- .entry-header -->
+		
+		<div class="entry-content">
+			<!-- START All-in-One Event Calendar Plugin - Version 2.5.10 -->
+<div id="ai1ec-container"
+	 class="ai1ec-main-container ">
+	
+	<div id="ai1ec-calendar" class="timely ai1ec-calendar">
+					
+						<div class="timely ai1ec-calendar-toolbar ai1ec-clearfix
+		">
+		<ul class="ai1ec-nav ai1ec-nav-pills ai1ec-pull-left ai1ec-filters">
+			<li class="ai1ec-dropdown ai1ec-category-filter ai1ec-cat-filter
+	ai1ec-active"
+	data-slug="cat">
+	<a class="ai1ec-dropdown-toggle" data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-fa-folder-open"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457737200/request_format~html/"
+			data-type="json"
+			title="Clear category filter">
+			<i class="ai1ec-fa ai1ec-fa-times-circle"></i>
+		</span>
+		Categories
+		<span class="ai1ec-caret"></span>
+	</a>
+	<div class="ai1ec-dropdown-menu">
+					<div data-term="7"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457737200/cat_ids~9,6,11,7/request_format~html/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Conference
+				</a>
+			</div>
+					<div data-term="8"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457737200/cat_ids~9,6,11,8/request_format~html/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Day 1
+				</a>
+			</div>
+					<div data-term="9"
+									class="ai1ec-active"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="../../../exact_date~1457737200/cat_ids~6,11/request_format~html/index.html">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Day 2
+				</a>
+			</div>
+					<div data-term="10"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457737200/cat_ids~9,6,11,10/request_format~html/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Day 3
+				</a>
+			</div>
+					<div data-term="11"
+									class="ai1ec-active"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="../../../exact_date~1457737200/cat_ids~9,6/request_format~html/index.html">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Keynotes
+				</a>
+			</div>
+					<div data-term="13"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457737200/cat_ids~9,6,11,13/request_format~html/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Sessions
+				</a>
+			</div>
+					<div data-term="6"
+									class="ai1ec-active"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="../../../exact_date~1457737200/cat_ids~9,11/request_format~html/index.html">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Tutorials
+				</a>
+			</div>
+					<div data-term="5"
+				>
+				<a class="ai1ec-load-view ai1ec-category ai1ec-cat"
+										data-type="json"
+					href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457737200/cat_ids~9,6,11,5/request_format~html/">
+											<span class="ai1ec-color-swatch-empty"></span>
+										Workshops
+				</a>
+			</div>
+			</div>
+</li>
+
+
+			
+					</ul>
+		<div class="ai1ec-pull-right">
+					
+				</div>
+	</div>
+		<div id="ai1ec-calendar-view-container"
+			 class="ai1ec-calendar-view-container">
+			<div id="ai1ec-calendar-view-loading"
+				 class="ai1ec-loading ai1ec-calendar-view-loading"></div>
+			<div id="ai1ec-calendar-view" class="ai1ec-calendar-view">
+				<div class="ai1ec-clearfix">
+		<div class="ai1ec-views-dropdown ai1ec-btn-group ai1ec-pull-right">
+		<a class="ai1ec-btn ai1ec-btn-sm ai1ec-btn-default ai1ec-dropdown-toggle"
+			data-toggle="ai1ec-dropdown">
+			<i class="ai1ec-icon-oneday ai1ec-view-icon"></i>
+			<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+				Day
+			</span>
+			<span class="ai1ec-caret"></span>
+		</a>
+		<div class="ai1ec-dropdown-menu">
+							<div class=""
+					data-action="agenda">
+					<a id="ai1ec-view-agenda"
+						data-type="json"
+						class="ai1ec-load-view agenda"
+						href="http://cgo.org/cgo2016/programme/action~agenda/exact_date~1457737200/cat_ids~9,6,11/request_format~html/">
+						<i class="ai1ec-icon-agenda ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Agenda
+						</span>
+					</a>
+				</div>
+							<div class="ai1ec-active"
+					data-action="oneday">
+					<a id="ai1ec-view-oneday"
+						data-type="json"
+						class="ai1ec-load-view oneday"
+						href="../../../exact_date~1457737200/cat_ids~9,6,11/request_format~html/index.html">
+						<i class="ai1ec-icon-oneday ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Day
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="month">
+					<a id="ai1ec-view-month"
+						data-type="json"
+						class="ai1ec-load-view month"
+						href="../../../../action~month/exact_date~1457737200/cat_ids~9,6,11/request_format~html/index.html">
+						<i class="ai1ec-icon-month ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Month
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="week">
+					<a id="ai1ec-view-week"
+						data-type="json"
+						class="ai1ec-load-view week"
+						href="../../../../action~week/exact_date~1457737200/cat_ids~9,6,11/request_format~html/index.html">
+						<i class="ai1ec-icon-week ai1ec-view-icon"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Week
+						</span>
+					</a>
+				</div>
+					</div>
+	</div>
+
+	<div class="ai1ec-title-buttons ai1ec-btn-toolbar">
+		
+		<div class="ai1ec-pagination ai1ec-btn-group">
+						<a class="ai1ec-prev-day ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457650800/cat_ids~9,6,11/request_format~html/">
+				<i class="ai1ec-fa ai1ec-fa-chevron-left"></i>
+			</a>
+								<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default
+    ai1ec-tooltip-trigger"
+			data-date="11/3/2016"
+			data-date-format="d/m/yyyy"
+			data-date-weekstart="1"
+			href="index.html#"
+			data-href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~__DATE__/cat_ids~9,6,11/"
+			data-lang="en-GB"
+		data-type="json"
+	title="Choose a date using calendar"
+	>
+	<i class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title">12th March 2016</span>
+  <span class="ai1ec-calendar-title-short"></span>
+</a>
+
+								<a class="ai1ec-next-day ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457823600/cat_ids~9,6,11/request_format~html/">
+				<i class="ai1ec-fa ai1ec-fa-chevron-right"></i>
+			</a>
+			</div>
+
+		
+					
+			</div>
+			
+	</div>
+
+
+<table class="ai1ec-oneday-view-original">
+	<thead>
+		<tr>
+							<th class="ai1ec-weekday
+					">
+															<a class="ai1ec-load-view" href=""
+						data-type="json">
+						<span class="ai1ec-weekday-date">12</span>
+						<span class="ai1ec-weekday-day">Sat</span>
+					</a>
+				</th>
+					</tr>
+		<tr>
+							<td class="ai1ec-allday-events
+					">
+
+											<div class="ai1ec-allday-label">All-day</div>
+					
+					 
+				</td>
+			 		</tr>
+
+	</thead>
+	<tbody>
+		<tr class="ai1ec-oneday">
+							<td >
+
+											<div class="ai1ec-grid-container">
+															<div class="ai1ec-hour-marker
+									"
+									style="top: 0px;">
+									<div>
+										12:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 15px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 30px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 45px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 60px;">
+									<div>
+										1:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 75px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 90px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 105px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 120px;">
+									<div>
+										2:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 135px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 150px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 165px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 180px;">
+									<div>
+										3:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 195px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 210px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 225px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 240px;">
+									<div>
+										4:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 255px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 270px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 285px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 300px;">
+									<div>
+										5:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 315px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 330px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 345px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 360px;">
+									<div>
+										6:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 375px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 390px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 405px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 420px;">
+									<div>
+										7:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 435px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 450px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 465px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 480px;">
+									<div>
+										8:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 495px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 510px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 525px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 540px;">
+									<div>
+										9:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 555px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 570px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 585px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 600px;">
+									<div>
+										10:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 615px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 630px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 645px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 660px;">
+									<div>
+										11:00 am
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 675px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 690px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 705px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 720px;">
+									<div>
+										12:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 735px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 750px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 765px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 780px;">
+									<div>
+										1:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 795px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 810px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 825px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 840px;">
+									<div>
+										2:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 855px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 870px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 885px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 900px;">
+									<div>
+										3:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 915px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 930px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 945px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 960px;">
+									<div>
+										4:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 975px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 990px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1005px;"></div>
+																							<div class="ai1ec-hour-marker
+									ai1ec-business-hour"
+									style="top: 1020px;">
+									<div>
+										5:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1035px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1050px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1065px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 1080px;">
+									<div>
+										6:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1095px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1110px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1125px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 1140px;">
+									<div>
+										7:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1155px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1170px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1185px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 1200px;">
+									<div>
+										8:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1215px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1230px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1245px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 1260px;">
+									<div>
+										9:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1275px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1290px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1305px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 1320px;">
+									<div>
+										10:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1335px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1350px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1365px;"></div>
+																							<div class="ai1ec-hour-marker
+									"
+									style="top: 1380px;">
+									<div>
+										11:00 pm
+									</div>
+								</div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1395px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1410px;"></div>
+																	<div class="ai1ec-quarter-marker"
+										style="top: 1425px;"></div>
+																												</div>
+					
+					<div class="ai1ec-day">
+
+						 					</div>
+
+				</td>
+			 		</tr>
+	</tbody>
+
+</table>
+
+<div class="ai1ec-pull-left"><div class="ai1ec-pagination ai1ec-btn-group">
+						<a class="ai1ec-prev-day ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457650800/cat_ids~9,6,11/request_format~html/">
+				<i class="ai1ec-fa ai1ec-fa-chevron-left"></i>
+			</a>
+								<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default
+    ai1ec-tooltip-trigger"
+			data-date="11/3/2016"
+			data-date-format="d/m/yyyy"
+			data-date-weekstart="1"
+			href="index.html#"
+			data-href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~__DATE__/cat_ids~9,6,11/"
+			data-lang="en-GB"
+		data-type="json"
+	title="Choose a date using calendar"
+	>
+	<i class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title">12th March 2016</span>
+  <span class="ai1ec-calendar-title-short"></span>
+</a>
+
+								<a class="ai1ec-next-day ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="http://cgo.org/cgo2016/programme/action~oneday/exact_date~1457823600/cat_ids~9,6,11/request_format~html/">
+				<i class="ai1ec-fa ai1ec-fa-chevron-right"></i>
+			</a>
+			</div>
+</div>
+
+			</div>
+		</div>
+		<div class="ai1ec-subscribe-container ai1ec-pull-right ai1ec-btn-group">
+			
+		</div>
+		
+	</div><!-- /.timely -->
+</div>
+<!-- END All-in-One Event Calendar Plugin -->
+
+
+					</div><!-- .entry-content -->
+
+		
+	</div>
+
+</article><!-- #post-12 -->
+
+			
+		
+	</div><!-- #content .site-content -->
+</div><!-- #primary .content-area -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+			</div><!-- #secondary .widget-area -->
+					</div><!-- .full-container -->
+	</div><!-- #main .site-main -->
+
+	
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+			<div id="footer-widgets" class="full-container">
+			<aside id="black-studio-tinymce-2" class="widget widget_black_studio_tinymce"><h3 class="widget-title">Contact Information</h3><div class="textwidget"><p><strong>Web Chair:</strong> <a title="Tom Spink" href="mailto:t.spink@sms.ed.ac.uk">Tom Spink</a></p>
+</div></aside>		</div><!-- #footer-widgets -->
+	
+			<div id="site-info">
+			2016 International Symposium on Code Generation and Optimization		</div><!-- #site-info -->
+	
+	<div id="theme-attribution">A <a href="https://siteorigin.com">SiteOrigin</a> Theme</div>
+</footer><!-- #colophon .site-footer -->
+
+	
+</div><!-- #page-wrapper -->
+
+
+<a href="index.html#" id="scroll-to-top" class="scroll-to-top" title="Back To Top"><span class="vantage-icon-arrow-up"></span></a><script type='text/javascript' src='../../../../../wp-includes/js/wp-embed.min-ver=4.6.14.js'></script>
+
+</body>
+</html>
