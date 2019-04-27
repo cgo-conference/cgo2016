@@ -2,13 +2,13 @@
   <service>
     <engineName>WordPress</engineName>
     <engineLink>https://wordpress.org/</engineLink>
-    <homePageLink>https://cgo-conference.github.io/2016</homePageLink>
+    <homePageLink>https://cgo-conference.github.io/cgo2016</homePageLink>
     <apis>
-      <api name="WordPress" blogID="1" preferred="true" apiLink="https://cgo-conference.github.io/2016/xmlrpc.php" />
-      <api name="Movable Type" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/2016/xmlrpc.php" />
-      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/2016/xmlrpc.php" />
-      <api name="Blogger" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/2016/xmlrpc.php" />
-      	<api name="WP-API" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/2016/wp-json/" />
+      <api name="WordPress" blogID="1" preferred="true" apiLink="https://cgo-conference.github.io/cgo2016/xmlrpc.php" />
+      <api name="Movable Type" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/cgo2016/xmlrpc.php" />
+      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/cgo2016/xmlrpc.php" />
+      <api name="Blogger" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/cgo2016/xmlrpc.php" />
+      	<api name="WP-API" blogID="1" preferred="false" apiLink="https://cgo-conference.github.io/cgo2016/wp-json/" />
 	    </apis>
   </service>
 </rsd>
